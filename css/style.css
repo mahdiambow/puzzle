@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Iran';
+    src: url('./IranianSans.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+body {
+    direction:rtl !important;
+    overflow-y:hidden ;
+    background-color: rgb(136, 136, 136);
+    font-family: "Iran", Helvetica, Arial, sans-serif;
+}
+table,.game{
+    width: 400px;
+}
+.game {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    height: 400px;
+    padding: 0px;
+    position: relative;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    border: 3px solid rgb(240, 76, 0);
+    padding: 10px;
+    font-family: Fantasy;
+}
+td {
+    background-color: rgb(46, 46, 46);
+    width: 5vw;
+    height: 5vw;
+    color: white;
+    border: 2px solid rgb(240, 76, 0);
+    padding-top: 10px;
+    line-height: 96px;
+    font-size: 32px;
+}
